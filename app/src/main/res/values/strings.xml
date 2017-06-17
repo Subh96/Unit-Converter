@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string-array name="length">
+        <item>Metre</item>
+        <item>Centimeter</item>
+        <item>Inch</item>
+        <item>Kilometer</item>
+        <item>Decimeter</item>
+    </string-array>
+    <string-array name="area">
+        <item>Square Inches</item>
+        <item>Square Feet</item>
+        <item>Square Yards</item>
+        <item>Square Metre</item>
+        <item>Square Kilometre</item>
+        <item>Square Miles</item>
+        <item>Acres</item>
+    </string-array>
+    <string-array name="weight">
+        <item>Kilogran</item>
+        <item>Gram</item>
+        <item>Ounce</item>
+        <item>Metric Ton</item>
+        <item>Short Ton</item>
+        <item>Long Ton</item>
+        <item>Pound</item>
+    </string-array>
+</resources>

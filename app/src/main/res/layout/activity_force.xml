@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.recycler.Force">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txt1"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:text="Lenght Conversion"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="11dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Lenght values"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/edt1"
+        android:layout_toRightOf="@+id/edt1"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBottom="@+id/spinner1"
+        android:layout_alignLeft="@+id/edt1"
+        android:layout_alignStart="@+id/edt1"
+        android:text="Result Will be Shown here" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="171dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+    <Button
+        android:id="@+id/bn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt1"
+        android:layout_marginTop="59dp"
+        android:layout_toLeftOf="@+id/spinner"
+        android:layout_toStartOf="@+id/spinner"
+        android:text="Convert"
+        android:onClick="OnClick"/>
+
+
+
+</RelativeLayout>

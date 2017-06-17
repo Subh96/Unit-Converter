@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhi.recycler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Unit Converter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_activity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Unit Converter"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Length"
+            android:label="Length Conversion" />
+        <activity
+            android:name=".Area"
+            android:label="Area Conversion" />
+        <activity android:name=".Weight" android:label="Area Conversion"/>
+        <activity android:name=".Temperature" android:label="Temperature Conversion"/>
+        <activity android:name=".Mass" android:label="Mass Conversion"/>
+        <activity android:name=".Velocity" android:label="Velocity Conversion"/>
+        <activity android:name=".Force" android:label="Force Conversion"/>
+        <activity android:name=".Pressure" android:label="Pressure Conversion"/>
+        <activity android:name=".Volume" android:label="Volume Conversion"/>
+        <activity android:name=".Time" android:label="Time Conversion"/>
+        <activity android:name=".Energy" android:label="Energy Conversion"></activity>
+    </application>
+
+</manifest>
