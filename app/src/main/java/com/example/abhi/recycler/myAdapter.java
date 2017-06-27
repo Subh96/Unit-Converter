@@ -54,24 +54,21 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.Viewholder> {
             holder.img.setImageResource(R.mipmap.ic_temp);
         }
         if(p==4){
-            holder.img.setImageResource(R.mipmap.ic_mass);
-        }
-        if(p==5){
             holder.img.setImageResource(R.mipmap.ic_pressure);
         }
-        if(p==6){
+        if(p==5){
             holder.img.setImageResource(R.mipmap.ic_force);
         }
-        if(p==7){
+        if(p==6){
             holder.img.setImageResource(R.mipmap.ic_volume);
         }
-        if(p==8){
+        if(p==7){
             holder.img.setImageResource(R.mipmap.ic_time);
         }
-        if(p==9){
+        if(p==8){
             holder.img.setImageResource(R.mipmap.ic_energy);
         }
-        if(p==10){
+        if(p==9){
             holder.img.setImageResource(R.mipmap.ic_ve);
         }
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
@@ -96,30 +93,26 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.Viewholder> {
                         context.startActivity(in3);
                         break;
                     case 4:
-                        Intent in4 = new Intent(context, Mass.class);
-                        context.startActivity(in4);
-                        break;
-                    case 5:
                         Intent in5 = new Intent(context, Pressure.class);
                         context.startActivity(in5);
                         break;
-                    case 6:
+                    case 5:
                         Intent in6 = new Intent(context, Force.class);
                         context.startActivity(in6);
                         break;
-                    case 7:
+                    case 6:
                         Intent in7 = new Intent(context, Volume.class);
                         context.startActivity(in7);
                         break;
-                    case 8:
+                    case 7:
                         Intent in8 = new Intent(context, Time.class);
                         context.startActivity(in8);
                         break;
-                    case 9:
+                    case 8:
                         Intent in9 = new Intent(context, Energy.class);
                         context.startActivity(in9);
                         break;
-                    case 10:
+                    case 9:
                         Intent in10 = new Intent(context, Velocity.class);
                         context.startActivity(in10);
                         break;

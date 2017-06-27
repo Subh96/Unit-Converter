@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="8dp"
+    android:id="@+id/custom_toast">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgview"
+        android:src="@mipmap/ic_cross"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textview"/>
+</LinearLayout>

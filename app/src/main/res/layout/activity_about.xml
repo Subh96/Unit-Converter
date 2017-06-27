@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.recycler.About">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_up"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:id="@+id/img_dev"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/img_dev"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/Linear">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="30dp"
+            android:textColor="@color/title"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abhishek Anand"
+            android:textSize="30dp"
+            android:textColor="@color/title"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linear2"
+        android:orientation="vertical"
+        android:layout_below="@+id/Linear"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:-"
+            android:textSize="30dp"
+            android:textColor="@color/title"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This App has various conversion of units and it also provide notification system"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+</RelativeLayout>

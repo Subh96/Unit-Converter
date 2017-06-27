@@ -17,12 +17,85 @@
         <item>Acres</item>
     </string-array>
     <string-array name="weight">
-        <item>Kilogran</item>
+        <item>Kilogram</item>
         <item>Gram</item>
         <item>Ounce</item>
         <item>Metric Ton</item>
         <item>Short Ton</item>
         <item>Long Ton</item>
         <item>Pound</item>
+    </string-array>
+    <string-array name="velocity">
+        <item>Lightspeed</item>
+        <item>Mach</item>
+        <item>Metre per second</item>
+        <item>Killometre per hour</item>
+        <item>Knot</item>
+        <item>Mile per hour</item>
+        <item>Foot per second</item>
+        <item>Inch per second</item>
+    </string-array>
+    <string-array name="volume">
+        <item>Cubic Centimetre</item>
+        <item>Cubic Milimetre</item>
+        <item>Cubic Meter</item>
+        <item>Cubic Decimeter</item>
+        <item>Litre</item>
+        <item>Decilitre</item>
+        <item>Centilitre</item>
+        <item>Mililitre</item>
+        <item>Cubic Foot</item>
+        <item>Cubic Inch</item>
+        <item>Cubic yard</item>
+        <item>Acre-foot</item>
+        <item>Hectolitre</item>
+    </string-array>
+    <string-array name="force">
+        <item>Gram-force</item>
+        <item>Newton</item>
+        <item>Kilonewton</item>
+        <item>Dyne</item>
+        <item>zeptonewton</item>
+        <item>Poundal</item>
+        <item>Pond</item>
+        <item>Pound-force</item>
+    </string-array>
+    <string-array name="pressure">
+        <item>atmosphere</item>
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>torr</item>
+        <item>Millimetre of mercury</item>
+        <item>Kilopascal</item>
+        <item>hectopascal</item>
+        <item>Killogram per sq.cm</item>
+        <item>Killogram per sq. metre</item>
+    </string-array>
+    <string-array name="temp">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <item>Rankine</item>
+        <item>Reaumur</item>
+    </string-array>
+    <string-array name="energy">
+        <item>Calorie</item>
+        <item>erg</item>
+        <item>Electronvolt</item>
+        <item>foot-pound</item>
+        <item>Joule</item>
+        <item>Kilocalorie</item>
+        <item>Kilojoule</item>
+        <item>Watt hour</item>
+    </string-array>
+    <string-array name="time">
+        <item>Year</item>
+        <item>Week</item>
+        <item>Day</item>
+        <item>Hour</item>
+        <item>Seconds</item>
+        <item>MilliSeconds</item>
+        <item>MicroSeconds</item>
+        <item>Picoseconds</item>
     </string-array>
 </resources>

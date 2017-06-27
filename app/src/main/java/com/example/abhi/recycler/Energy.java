@@ -1,5 +1,7 @@
 package com.example.abhi.recycler;
 
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,11 +23,11 @@ public class Energy extends AppCompatActivity {
         spinner= (Spinner) findViewById(R.id.spinner);
         spinner1= (Spinner) findViewById(R.id.spinner1);
 
-        ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this,R.array.weight,R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> adapter=ArrayAdapter.createFromResource(this,R.array.energy,R.layout.support_simple_spinner_dropdown_item);
         adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-        ArrayAdapter<CharSequence> adapter1=ArrayAdapter.createFromResource(this,R.array.weight,R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> adapter1=ArrayAdapter.createFromResource(this,R.array.energy,R.layout.support_simple_spinner_dropdown_item);
         adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
         spinner1.setAdapter(adapter1);
 
@@ -38,5 +40,16 @@ public class Energy extends AppCompatActivity {
                 Toast.makeText(getApplication(),"defqwe",Toast.LENGTH_SHORT).show();
             }
         });
+    }
+    @Override
+    public void onBackPressed(){
+        new AlertDialog.Builder(this).setTitle("Want to go back").setMessage("For going Back to Mainpage Press yes")
+                .setNegativeButton("No",null)
+                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Energy.super.onBackPressed();
+                    }
+                }).create().show();
     }
 }
